@@ -3,7 +3,6 @@
  * https://github.com/facebook/react-native
  * @flow
  */
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -13,6 +12,9 @@ import {
 } from 'react-native';
 
 export default class ReactNativeTraining extends Component {
+  multiply(n1: number, n2: number): number {
+    return n1 * n2;
+  }
   render() {
     return (
       <View style={styles.container}>
@@ -20,7 +22,7 @@ export default class ReactNativeTraining extends Component {
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+          {this.multiply(14, 14)}
         </Text>
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{'\n'}
