@@ -8,6 +8,8 @@
     "flow": "node_modules/.bin/flow",
     "flow-stop": "node_modules/.bin/flow stop"
   },
+  "author": "Ankit Tyagi",
+  "license": "MIT",
   "dependencies": {
     "react": "16.0.0-alpha.6",
     "react-native": "0.44.0",
