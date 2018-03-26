@@ -22,7 +22,7 @@ npm install --save react-redux
 npm install --save redux-thunk
 npm install --save redux-logger
 ```
-###Commit 4 : added a sample counter example with folder structure of react-redux based application
+### Commit 4 : added a sample counter example with folder structure of react-redux based application
 
 See the folder structure in app folder
 
